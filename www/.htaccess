@@ -1,0 +1,2 @@
+AddDefaultCharset utf-8
+RewriteRule ^(images|img|css|js|flash|flv|xml|doc)/(.*) www/static/$1/$2 [L]
